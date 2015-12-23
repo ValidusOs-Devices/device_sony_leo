@@ -13,6 +13,7 @@
 # limitations under the License.
 
 include device/sony/shinano/BoardConfig.mk
+include device/sony/shinano/BoardConfig2.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := D6603
 
