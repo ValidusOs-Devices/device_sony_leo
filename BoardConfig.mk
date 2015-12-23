@@ -15,6 +15,8 @@
 include device/sony/shinano/BoardConfig.mk
 include device/sony/shinano/BoardConfig2.mk
 
+BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
+
 TARGET_BOOTLOADER_BOARD_NAME := D6603
 
 #Reserve space for data encryption (12656259072-16384)

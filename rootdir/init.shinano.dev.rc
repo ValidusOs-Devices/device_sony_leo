@@ -1,0 +1,4 @@
+on boot
+    # Glove input
+    chown system system /sys/devices/virtual/input/clearpad/glove
+    chmod 0660 /sys/devices/virtual/input/clearpad/glove
