@@ -1,7 +1,7 @@
 [
   {
     "remote":       "github",
-    "repository":   "android_device_sony_shinano",
+    "repository":   "crdroid-devices/android_device_sony_shinano",
     "target_path":  "device/sony/shinano",
     "revision":     "6.0.0-test"
   },
