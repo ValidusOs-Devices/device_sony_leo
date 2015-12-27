@@ -15,6 +15,9 @@
 include device/sony/shinano/BoardConfig.mk
 include device/sony/shinano/BoardConfig2.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6633,D6643,D6653,z3,leo
+
 BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
 
 TARGET_BOOTLOADER_BOARD_NAME := D6603
