@@ -1,9 +1,9 @@
 [
   {
     "remote":       "github",
-    "repository":   "crdroid-devices/android_device_sony_shinano",
+    "repository":   "TV-LP51-Devices/device_sony_shinano",
     "target_path":  "device/sony/shinano",
-    "branch":     "6.0.0-test"
+    "branch":     "6.0"
   },
   {
     "remote":       "github",
