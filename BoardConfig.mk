@@ -29,6 +29,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688
 
 PRODUCT_VENDOR_KERNEL_HEADERS += device/sony/leo/kernel-headers
 
+
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
@@ -42,3 +43,8 @@ STRICT_ALIASING := false
 KRAIT_TUNINGS := true
 GRAPHITE_OPTS := false
 ENABLE_GCCONLY := true
+
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+TARGET_TAP_TO_WAKE_STRING := true
+
