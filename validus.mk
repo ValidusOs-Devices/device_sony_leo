@@ -5,14 +5,14 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit AOSP Shinano device parts
 $(call inherit-product, device/sony/leo/aosp_d6603.mk)
 
-# Inherit tipsy Shinano device parts
+# Inherit validus Shinano device parts
 $(call inherit-product, device/sony/shinano/device2.mk)
 
-# Inherit tipsy common Phone stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+# Inherit validus common Phone stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -24,5 +24,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=Sony/D6603/D6603:5.1.1/23.4.A.
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="D6603-user 5.1.1 23.4.A.1.264 2418263178 release-keys"
 
 # Override Product Name for tipsy
-PRODUCT_NAME := tipsy_leo
+PRODUCT_NAME := validus_leo
 PRODUCT_MODEL := Xperia Z3
