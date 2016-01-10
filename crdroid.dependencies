@@ -6,6 +6,24 @@
   },
   { 
     "remote":       "CyanogenMod",
+    "repository":   "android_external_busybox",
+    "target_path":  "external/busybox",
+    "revision":     "cm-13.0"
+  },
+  { 
+    "remote":       "CyanogenMod",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display-caf/sony",
+    "revision":     "cm-13.0-sony"
+  },
+  { 
+    "remote":       "CyanogenMod",
+    "repository":   "android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media-caf/sony",
+    "revision":     "cm-13.0-sony"
+  },
+  { 
+    "remote":       "CyanogenMod",
     "repository":   "android_device_qcom_common",
     "target_path":  "device/qcom/common",
     "revision":     "cm-13.0"
