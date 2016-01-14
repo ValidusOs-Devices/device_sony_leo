@@ -2,7 +2,7 @@
   {
     "repository":   "android_device_sony_shinano",
     "target_path":  "device/sony/shinano",
-    "revision":     "6.0.0-test"
+    "revision":     "6.0.0"
   },
   { 
     "remote":       "CyanogenMod",
@@ -48,20 +48,26 @@
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/kernel",
+    "repository":   "SonyAosp/kernel",
     "target_path":  "kernel/sony/msm",
-    "revision":     "6.0.0"
+    "revision":     "cm-13.0"
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/vendor-sony-blobs",
-    "target_path":  "vendor",
-    "revision":     "master"
+    "repository":   "SonyAosp/platform_vendor_qcom",
+    "target_path":  "vendor/qcom",
+    "revision":     "mm-6.0"
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/vendor-qcom-proprietary",
+    "repository":   "SonyAosp/platform_vendor_sony",
+    "target_path":  "vendor/sony",
+    "revision":     "mm-6.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_vendor_qcom_proprietary",
     "target_path":  "vendor/qcom/proprietary",
-    "revision":     "master"
+    "revision":     "mm-6.0"
   }
 ]
