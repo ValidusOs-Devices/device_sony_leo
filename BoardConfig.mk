@@ -46,5 +46,4 @@ ENABLE_GCCONLY := false
 
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-TARGET_TAP_TO_WAKE_STRING := true
 
