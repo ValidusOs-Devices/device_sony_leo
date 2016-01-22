@@ -1,44 +1,68 @@
 [
   {
     "remote":       "github",
-    "repository":   "TV-LP51-Devices/device_sony_shinano",
+    "repository":   "XperiaProject/device_sony_shinano",
     "target_path":  "device/sony/shinano",
-    "branch":     "6.0"
+    "branch":       "aospb"
+  },
+  { 
+    "remote":       "CyanogenMod",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display-caf/sony",
+    "branch":       "cm-13.0-sony"
+  },
+  { 
+    "remote":       "CyanogenMod",
+    "repository":   "android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media-caf/sony",
+    "branch":       "cm-13.0-sony"
   },
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/thermanager",
     "target_path":  "hardware/sony/thermanager",
-    "branch":     "master"
+    "branch":       "master"
   },
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/timekeep",
     "target_path":  "hardware/sony/timekeep",
-    "branch":     "master"
+    "branch":       "master"
   },
   {
     "remote":       "github",
     "repository":   "sonyxperiadev/macaddrsetup",
     "target_path":  "hardware/sony/macaddrsetup",
-    "branch":     "master"
+    "branch":       "master"
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/kernel",
+    "repository":   "XperiaProject/kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "branch":     "6.0.0"
+    "branch":       "M-6.0"
   },
   {
     "remote":       "github",
     "repository":   "alviteri/vendor-sony-blobs",
     "target_path":  "vendor",
-    "branch":     "master"
+    "branch":       "master"
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/vendor-qcom-proprietary",
+    "repository":   "SonyAosp/platform_vendor_qcom",
+    "target_path":  "vendor/qcom",
+    "revision":     "mm-6.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_vendor_sony",
+    "target_path":  "vendor/sony",
+    "branch":       "mm-6.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_vendor_qcom_proprietary",
     "target_path":  "vendor/qcom/proprietary",
-    "branch":     "master"
+    "branch":       "mm-6.0"
   }
 ]
